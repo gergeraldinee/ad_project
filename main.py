@@ -43,6 +43,7 @@ entry.pack()
 
 def callback():  # This is a Callback to Set whatever the User input
     sv.set(entry.get()) #Then Set it inside the 'sv' variable
+    print(sv)
 
 button = tk.Button(text="Generate", width=10, height=2, command=callback)
 button.pack()
